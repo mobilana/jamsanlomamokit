@@ -141,15 +141,15 @@ var fsm = {
             },
             onFailure: function(){ alert('fail') }
          }).send({
-            method: 'post',
-            data: JSON.encode({
+            //method: 'post',
+            data: {
                cottage: $('book_cottage').getElement('select').selectedText(),
                arrive: $('book_arrive').getElement('input').value,
                duration: $('book_duration').getElement('input').value,
                person: $('book_name').getElement('input').value, 
                phone: $('book_phone').getElement('input').value,
                email: $('book_email').getElement('input').value
-            })
+            }
          }));
          
       });
