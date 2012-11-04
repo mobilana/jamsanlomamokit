@@ -1,0 +1,71 @@
+{
+   "entry": [
+      {
+         "title":{
+            "type":"l10n",
+            "en":"Basic info",
+            "ru":"Основная информация",
+            "fi":"Perustietoja"
+         },
+         "content":[{
+            "type":"l10n",
+            
+            "en":"65 km south-west of Jyväskylä, Lake Toivas 30 m (length 5 km, width 300 m), dredged and sanded shore, own boat. New laminated log houses suitable for 6 to 12 persons. Downstairs: living room extra bed, 2 bedrooms with double bed, kitchen area, wash room, hall, large porch on two sides of house. Upstairs: 2 bedrooms 2 beds in each, separate WC and lounge with extra double bed. Sauna.",
+            
+            "ru":"Наши коттеджи расположены в 65 км на юго-восток от г. Ювяскюля, на берегу прекрасного озера Тойвас (30 м до берега, длина 5 км, ширина 300 м). Новые двухэтажные деревянные дома может вместить oт 6 дo 12 человек. Первый этаж: гостиная с дополнительным спальным местом, 2 спальни с двухспальным местом в каждой, кухня, душевая комната, дровяная сауна. Второй этаж: 2 спальни с двухспальным местом в каждой, туалет." ,
+            
+            "fi":"Jyväskylästä 65 km lounaaseen, Toivasjärvi 30 m (pituus 5 km, leveys 300 m), ruopattu ja hiekoitettu ranta, oma vene. Uudet lamellihirsitalot 2009, ala-kerrassa makuuhuone pari vuoteelle, makuuhuone 2 vuodetta, olohuone lisävuode kahdelle, keittiötila, pesuhuone, eteinen, tilava kuisti talon kahdella sivulla. Yläkerrassa on kaksi makuuhuonetta, joissa molemmissa on kaksi vuodetta molemmissa, erillinen wc, oleskelutila lisävuode kahdelle. Mökillä on siirrettävä lasten sänky, syöttötuoli, lasten leikkivälineitä ja SAT-TV."
+         }]
+      },
+      {
+         "title":{
+            "type":"l10n",
+            "en":"Equipment",
+            "ru":"Дополнительные удобства",
+            "fi":"Varustus"
+         },
+         "content":[{
+            "type":"l10n",
+            
+            "en":"Electric light, electric stove, electric fridge-freezer, underfloor heating, storage fireplace/heater, hot/cold water, shower, 2 toilets, microwave oven, television, CD player, dishwasher, barbecue, high chair.",
+            
+            "ru":"Коттеджи полностью электрифицированы и снабжены всеми необходимыми электроприборами: электрическая плита, холодильник, микроволновая печь, посудомоечная машина, электрическая гриль, 42 дюйма TV с пакетом программ Российского телевидения, музыкальный центр, DVD c караоке. Уют и романтическую обстановку создаст камин. Для любителей бани, дровяная сауна  дает возможность насладится легким паром. <br/> В коттеджах созданы условия для отдыха с маленькими детьми: раскладная детская кроватка, детский стульчик, игрушки, настольные и уличные игры. Также предоставляем услуги русскоговорящей няни для детей от 2 до 10 лет. <br/> Мы можем доставить Вам еду прямо в коттеджи, а также отвезти белье в стирку.",
+   
+            "fi":"Sähkövalo, sähköhella, jääkaappi ja pakastin, lattialämmitys, varaava takka, kylmä ja lämmin vesi, suihku, 2 wc, mikroaaltouuni, tv, CD-soitin, astianpesukone, siirrettävä ulkogrilli."
+         }]
+      },
+      {
+         "title":{
+            "type":"l10n",
+            "en":"Location",
+            "ru":"Дополнительная информация",
+            "fi":"Sijainti"
+         },
+         "content":[{
+            "type":"l10n",
+            
+            "en":"Helsinki 235 km, railway station 15 km, bus 1,5 km, snowmobile routes 500 m, restaurant 10 km, shop 10 km, neighbour 50 m, ski resort Himos 25 km, cross-country skiing track 300 m, length 3 km. Gentle slope from cottage to shore, on shore a jetty and platform for relaxation. <br/>Swimming shore deepens quickly. Bicycles and snowshoes can be rented from Jämsän Loma Oy, meals can also be ordered there for delivery to cottage. Himos ski resort and Himos Golf 25 km, Jämsänkoski town services 10 km. Only for families. The area is suitable to pick up mushrooms and berries.",
+            
+            "ru":"Вы всегда можете разнообразить Ваш отдых! Вы можете пробежаться по лыжне длинной 3 км, расположенной в 50 м от коттеджа. Рядом, в 25 км от коттеджа, находится горнолыжный курорт Химос. Железно дорожная станция находится в 15 км, автобусная остановка 1,5 км, снегоходная трасса 500 м, ресторан 10 км, магазин 10 км, соседи 50 м. У нас Вы всегда сможете арендовать велосипеды или снегоступы.", 
+   
+            "fi":"Helsinki 235 km, rautatieasema 15 km, bussipysäkki 1,5 km, moottorikelkkareitti 500 m, ravintola 10 km, kauppa 10 km, naapuri 50 m, hiihtokeskus Himos 25 km, hiihtolatu 300 m, latujen pituus 3 km <br/> Mökiltä rantaan loivaa rinnettä, rannassa laituri ja oleskelutaso. Uimaranta syvenee nopeasti. Jämsän Lomasta voi vuokrata polkupyöriä, lumikenkiä, sähköperämoottoriaa ja voi tilata ruokapalveluja mökille. Himoksen laskettelukeskus ja Himos Golf 25 km, Jämsänkosken palvelut 10 km. Kohde sopii erityisesti lapsiperheille. Alueella hyvät marja- ja sienimaat."
+         }]
+      },
+      {
+         "title":{
+            "type":"l10n",
+            "en":"Price",
+            "ru":"Цены на наши услуги",
+            "fi":"Hinnat"
+         },
+         "content":[{
+            "type":"l10n",
+            "en":"&#8729; Week 890 - 1390 &euro;<br/>&#8729; Week-end 290 - 500 &euro;<br/>&#8729; Linen 12  &euro;/person<br/>&#8729; Final Cleaning 100  &euro;<br/>",
+            
+            "ru":"&#8729; Неделя 890 - 1390 &euro;<br/>&#8729; Выходные дни 290 - 500 &euro;<br/>&#8729; Постельное белье 12  &euro;/чел-к<br/>&#8729; Уборка 100  &euro;<br/>",
+            
+            "fi":"&#8729; Viikko 890 - 1390 &euro;<br/>&#8729; Vkl alk. 290 - 500 &euro;<br/>&#8729; Liinavaatteet 12 &euro;/henkilö.<br/>&#8729; Loppusiivous 100 &euro;<br/>"
+         }]
+      }
+   ]   
+}

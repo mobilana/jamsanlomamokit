@@ -1,0 +1,21 @@
+{
+   "flex": "list",
+   "flex_class": "grid",
+   "id": "0004",
+   "entry": [
+      {
+         "id":    "photo-14",
+         "flex":  "li_image",
+         "flex_class": "summer",
+         "rel":   "content/0004/summer/safiiri.jpg",
+         "source":"content/0004/summer/thumb/safiiri.jpg"
+      },
+      {
+         "id":    "photo-15",
+         "flex":  "li_image",
+         "flex_class": "summer",
+         "rel":   "content/0004/summer/IMG_4081.jpg",
+         "source":"content/0004/summer/thumb/IMG_4081.jpg"
+      }
+   ]
+}

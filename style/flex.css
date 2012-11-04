@@ -1,0 +1,427 @@
+/*
+ --------------------------------------------------------------------
+ 
+  html reset 
+
+ --------------------------------------------------------------------
+*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, 
+p, blockquote,  a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, font, img, ins, 
+kbd, q, s, samp, small, strike, strong,   sub,
+sup, tt, var, dl, dt, dd, ol, ul, li, fieldset,
+form,  label,  legend,  table,  caption, tbody,
+tfoot, thead, tr, th, td, input
+{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-weight: inherit;
+   font-style: inherit;
+   font-size: 100%;
+   font-family: inherit;
+   vertical-align: baseline;
+   /*overflow: hidden;*/  /* too many issues */
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   text-decoration: none;
+}
+
+html, body
+{
+	overflow-y: visible;
+}
+
+body
+{
+   overflow-x: hidden;
+   font-size: 16px;
+}
+
+ul li
+{
+   position: relative;
+   text-align: left;
+   list-style: none;
+}
+
+p
+{
+	overflow: visible;
+   font-weight: normal;
+   text-align: justify;
+   white-space: normal;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/*
+ --------------------------------------------------------------------
+ 
+  view 
+
+ --------------------------------------------------------------------
+*/
+.popup
+{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9998;
+   display: none;
+   background: rgba(0, 0, 0, 0.65);
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+}
+
+/*
+ --------------------------------------------------------------------
+ 
+  list 
+
+ --------------------------------------------------------------------
+*/
+.list li
+{
+   position: relative;
+   text-align: left;
+   margin: 0;
+   padding: 8px 0 8px 10px;
+   list-style: none;
+   line-height: 32px;
+   background-color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+   border-bottom: 1px solid #ccc;
+}
+
+/* basic list */
+
+/* padding at element is reserved for right side labels*/
+.list li a
+{
+	position: relative;
+   text-decoration: none;
+   display: block;
+   margin: -8px 0 -8px -10px;
+   padding: 8px 96px 8px 10px;
+}
+ 
+/* 
+  aligns vertially a small label,
+  uses techniques from http://phrogz.net/CSS/vertical-align/index.html
+*/
+.list li a > small
+{
+   position:absolute;
+   top: 50%;
+   right: 0%;
+   height: 16px;
+   margin: -8px 32px 0px 0px;
+   line-height: 16px;
+   font-size: 13px;
+   color: #333;
+}
+
+.list li a > span
+{
+	display: block;
+	text-align: left;
+   font-size: 14px;
+   line-height: 16px;
+   font-weight: normal;
+   color: #000;
+}
+
+.list li a > p
+{
+   line-height: 16px;
+   overflow: visible; 
+   white-space: normal;
+   text-align: left;
+   font-size: 14px;
+   font-weight: normal;
+   color: #000;
+}
+
+.list li a > p + p
+{
+   color: #666;
+   /*
+   overflow: hidden; 
+   white-space: nowrap;   
+   */ 
+}
+
+/* unnamed image element with list is an icon of 32x32 */
+.list li a > img
+{
+   vertical-align: middle;
+   width: 32px;
+   height: 32px;
+   /* margin: -8px 10px -8px -1px; */
+}
+
+/* content list */
+.list li a > div
+{
+   display: inline-block;
+   vertical-align: middle;
+   width: 80%;
+   font-size: 16px;
+}
+
+.list li a > div span
+{
+   display: block;
+   line-height: 14px;
+   font-size: 12px;
+}
+
+.list li a > div  big
+{
+   display: block;
+   line-height: 18px;
+   font-size: 16px;
+}
+
+/* media list */
+.list li.li-wide,
+.list li.li-hd,
+.list li.li-wide a,
+.list li.li-hd a
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.list li.li-wide a > img
+{
+   vertical-align: middle;
+   width: 120px;
+   height: 90px;
+}
+
+.list li.li-wide a > div
+{
+   width: 65%; /* todo: validete */
+}
+
+
+.list li.li-hd a > img
+{
+   vertical-align: middle;
+   width: 90px;
+   height: 90px;
+}
+
+/*
+ --------------------------------------------------------------------
+ 
+  grid 
+
+ --------------------------------------------------------------------
+*/
+.grid li,
+.grid li a > img
+{
+   width: 96px;
+   height: 96px; 
+   padding: 0;
+   margin: 0; 
+}
+
+.grid li
+{
+	float: left;
+	border: 1px solid #333;
+	margin: 4px 0px 0px 4px;
+}
+
+
+/*
+ --------------------------------------------------------------------
+ 
+  image 
+
+ --------------------------------------------------------------------
+*/
+.image
+{
+	position: relative;
+	display: inline-block;
+}
+
+/* 
+   Core standard Ad Units
+   http://www.iab.net/iab_products_and_industry_services/1421/1443/1452 
+*/
+.img-medium,
+.img-medium img
+{
+   width: 300px;
+   height: 250px;
+}
+
+.img-rect,
+.img-rect img
+{
+   width: 180px;
+   height: 150px;
+}
+
+.img-leaderboard,
+.img-leaderboard img
+{
+   width: 728px;
+   height: 90px;
+}
+
+.img-wide-skyscraper,
+.img-wide-skyscraper img
+{
+   width: 160px;
+   height: 600px;
+}
+
+.img-halfpage,
+.img-halfpage img
+{
+	width: 300px;
+   height: 600px;
+}
+
+.img-button,
+.img-button img
+{
+   width: 120px;
+   height: 60px;
+}
+
+.img-micro,
+.img-micro img
+{
+   width: 88px;
+   height: 31px;
+}
+
+.img-square,
+.img-square img
+{
+   width: 250px;
+   height: 250px;
+}
+
+.img-popunder,
+.img-popunder img
+{
+   width: 720px;
+   height: 300px;
+}
+
+.image a
+{
+	position: relative;
+	vertical-align: middle;
+}
+
+.image span
+{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+
+.img-leaderboard span
+{
+	width: auto;
+	height: 90px;
+	position: absolute;
+	right: 0px;
+	line-height: 90px;
+}
+
+.img-micro span
+{
+	display: none;
+}
+
+
+
+/*
+ --------------------------------------------------------------------
+ 
+  editor 
+
+ --------------------------------------------------------------------
+*/
+.editor > div
+{
+   position: relative;
+   text-align: left;
+   margin: 0;
+   padding: 8px 0px 8px 10px;
+   list-style: none;
+   line-height: 32px;
+   font-size: 18px;
+   font-weight: bold;
+   border-bottom: 1px solid #ccc;
+}
+
+.editor > div label 
+{
+   display: inline-block;
+   vertical-align: top;
+   line-height: 18px;
+   margin: 0px 10px 0px 0px;
+   overflow: hidden;
+   padding: 0px;
+   text-align: right;
+   width: 35%;
+   font-size: 13px;
+   color: #4C566C;
+}
+
+.editor > div label small
+{
+	display: none;
+}
+
+.editor > div input 
+{
+   display: inline-block;
+   padding: 0px;
+   vertical-align: top;
+   line-height: 18px;
+   margin: 0px;
+   overflow: visible;
+   white-space: normal;
+   width: 62%;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+.wtk-editor > div select 
+{
+   display: inline-block;
+   padding: 0px;
+   vertical-align: top;
+   line-height: 18px;
+   margin: 0px;
+   overflow: visible;
+   white-space: normal;
+   width: 62%;
+   font-size: 13px;
+   font-weight: bold;
+} 

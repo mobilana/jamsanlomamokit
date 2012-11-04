@@ -1,0 +1,166 @@
+{
+   "flex" : "list",
+   "entry": [
+      {
+         "id": "0002",
+         "rel":       "#gallery.0002",
+         "flex":      "li_content",
+         "flex_class":"li-wide",
+         "type":      {"type":"l10n", "en":"5 star", "ru":"5-звездочный", "fi":"5 tähteä"},
+         "title":     "Inkeri",
+         "subtitle":{
+            "type":"l10n",
+            "en":"100 m<sup>2</sup>, 6 + 2 prsn",
+            "ru":"100 m<sup>2</sup>, 6 + 2 чел",
+            "fi":"100 m<sup>2</sup>, 6 + 2 henk" 
+         },
+         "icon":      "content/0002/icon.jpg",
+         "tag":{
+            "type":"l10n",
+            "en":"890-1390&euro;/wk",
+            "ru":"890-1390&euro;/нед",
+            "fi":"890-1390&euro;/vko"
+         },
+         "summary": [
+            {
+               "type":"l10n",
+               
+               "en": "<br/>Central Finland, Jämsä 65 km south-west of Jyväskylä; Lake Toivas, shallow lagoon for kids; Built 2011; neighbors 200m; laminated log house, electric heating; 3 bedroom, living room, kitchen, 2 WC, TV 42'', sauna in the same building; Suitable for disabled persons; allergy-free areas; Jämsänkoski town services 10 km.",
+               
+               "ru": "<br/>Центральная Финляндия, Ямся; 65 км на юго-восток от г. Ювяскюля; на берегу о. Тойвас, мелководная лагуна для детей; построен в 2011; соседи 200м; двухэтажный деревянный дом; 3 спальни, гостиная с дополнительным спальным местом, кухня, душевая комната, 2 туалета, TV 42'', дровяная сауна в доме; Подходит для инвалидов; экологически чистый материал; Ресторан и магазин 10 км",
+               
+               "fi": "<br/>Keski-Suomi, Jämsä; Jyväskylästä 65 km lounaaseen; Toivasjärvi 30 m, matala laguuni lapsille; rakennettu 2011; naapurit 200m; lamellihirsitalo, sähkö-valaistus; 3 makuuhuonetta, olohuone lisävuode kahdelle, keittiötila, 2 WC, TV 42'', päärakennuksessa puulämmitteinen sauna; Sopii liikuntarajoitteisille ja tilat ovat allergiavapaita; Jämsänkosken palvelut 10 km"
+            }
+         ]
+      },
+      {
+         "id": "0001",
+         "rel":       "#gallery.0001",
+         "flex":      "li_content",
+         "flex_class":"li-wide",
+         "type":      {"type":"l10n", "en":"5 star", "ru":"5-звездочный", "fi":"5 tähteä"},
+         "title":     "Puolukkahuvila",
+         "subtitle":{
+            "type":"l10n",
+            "en": "100 m<sup>2</sup>, 8+4 prsn",
+            "ru": "100 m<sup>2</sup>, 8+4 чел",
+            "fi": "100 m<sup>2</sup>, 8+4 henk"
+         },
+         "icon":       "content/0001/icon.jpg",
+         "tag":{
+            "type":"l10n",
+            "en":"890-1390&euro;/wk",
+            "ru":"890-1390&euro;/нед",
+            "fi":"890-1390&euro;/vko"
+         },
+         "summary": [
+            {
+               "type":"l10n",
+               
+               "en":"<br/>Central Finland, Jämsä; 65 km south-west of Jyväskylä; Lake Toivas, length 5 km, width 300 m; Built 2009; laminated log house, electric heating; 4 bedroom, living room, kitchen, 2 WC, sauna in the same building; Suitable for disabled persons; allergy-free areas; Jämsänkoski town services 10 km.",
+               
+               "ru":"<br/>Центральная Финляндия, Ямся; 65 км на юго-восток от г. Ювяскюля; на берегу о. Тойвас, длина 5 км, ширина 300 м;построен в 2009; двухэтажный деревянный дом; 4 спальни, гостиная с дополнительным спальным местом, кухня, душевая комната, 2 туалета, дровяная сауна в доме; Подходит для инвалидов; экологически чистый материал; Ресторан и магазин 10 км",
+               
+               "fi":"<br/>Keski-Suomi, Jämsä; Jyväskylästä 65 km lounaaseen; Toivasjärvi 30 m, pituus 5 km, leveys 300 m; rakennettu 2009; lamellihirsitalo, sähkö-valaistus; 4 makuuhuonetta, olohuone lisävuode kahdelle, keittiötila, 2 WC, päärakennuksessa puulämmitteinen sauna; Sopii liikuntarajoitteisille ja tilat ovat allergiavapaita; Jämsänkosken palvelut 10 km"
+               
+            }
+         ]
+      },
+      {
+         "id": "0003",
+         "rel": "#gallery.0003",
+         "flex": "li_content",
+         "flex_class": "li-wide",
+         "type":   {"type":"l10n", "en":"5 star", "ru":"5-звездочный", "fi":"5 tähteä"},
+         "title": "Aurinko",
+         "subtitle" : {
+            "type":"l10n",
+            "en":"100 m<sup>2</sup>, 8 prsn",
+            "ru":"100 m<sup>2</sup>, 8 чел",
+            "fi":"100 m<sup>2</sup>, 8 henk"
+         },
+         "icon": "content/0003/icon.jpg",
+         "tag": {
+            "type":"l10n",
+            "en": "890-1390&euro;/wk", 
+            "ru": "890-1390&euro;/нед",
+            "fi": "890-1390&euro;/vko"
+         },
+         "summary":[
+            {
+               "type":"l10n",
+               
+               "en":"<br/>Central Finland, Jämsä; 65 km south-west of Jyväskylä; Lake Toivas, dredged and sanded shore, own boat; Laminated log house 2009; 4 bedroom, living room, kitchen, 2 WC, sauna in the same building; Not suitable for holiday with children; Jämsänkoski town services 11 km.",
+               
+               "ru":"<br/>Центральная Финляндия, Ямся; 65 км на юго-восток от г. Ювяскюля; на берегу о. Тойвас; двухэтажный деревянный дом построен в 2009; 4 спальни, кухня, душевая комната, 2 туалета, дровяная сауна в доме; Не подходит для отдыха с детьми; Ресторан и магазин 11 км",
+                   
+               "fi":"<br/>Keski-Suomi, Jämsä; Jyväskylästä 65 km lounaaseen; Toivasjärvi 30 m, ruopattu ja hiekoitettu ranta, oma vene; Lamellihirsitalo 2009; 4 makuuhuonetta, keittiötila, 2 WC, päärakennuksessa puulämmitteinen sauna; Ei sovi lapsiperheille; Jämsänkosken palvelut 11 km"
+            }
+         ]      
+      },
+      {
+         "id": "0004",
+         "rel":"#gallery.0004",
+         "flex": "li_content",
+         "flex_class": "li-wide",
+         "type": {"type":"l10n", "en":"5 star", "ru":"5-звездочный", "fi":"5 tähteä"},
+         "title": "Safiiri",
+         "subtitle":{
+            "type":"l10n",
+            "en":"100 m<sup>2</sup>, 8 prsn",
+            "ru":"100 m<sup>2</sup>, 8 чел",
+            "fi":"100 m<sup>2</sup>, 8 henk"
+         },
+         "icon": "content/0004/icon.jpg",
+         "tag":{
+            "type":"l10n",
+            "en":"890-1390&euro;/wk",
+            "ru":"890-1390&euro;/нед",
+            "fi":"890-1390&euro;/vko"
+         },
+         summary:[
+            {
+               "type":"l10n",
+               
+               "en":"<br/>Central Finland, Jämsä; 65 km south-west of Jyväskylä; Lake Toivas; own boat; New laminated log house 2010; 4 bedroom, living room with extra double bed, kitchen, 2 WC, sauna in the same building; Jämsänkoski town services 11 km.",
+               
+               "ru":"<br/>Центральная Финляндия, Ямся; 65 км на юго-восток от г. Ювяскюля; на берегу о. Тойвас; двухэтажный деревянный дом построен в 2010; 4 спальни, гостиная с дополнительным спальным местом, кухня, душевая комната, 2 туалета, дровяная сауна в доме; Ресторан и магазин 11 км",
+                   
+               "fi":"<br/>Keski-Suomi, Jämsä; Jyväskylästä 65 km lounaaseen; Toivasjärvi 30 m; oma vene; Uusi lamellihirsitalo 2010; 4 makuuhuonetta, olohuone lisävuode kahdelle, keittiötila, 2 WC, päärakennuksessa puulämmitteinen sauna; Jämsänkosken palvelut 11 km"
+            }
+         ]
+      },
+      {
+         "id": "0005",
+         "rel":"#gallery.0005",
+         "flex":"li_content",
+         "flex_class":"li-wide",
+         "type": {"type":"l10n", "en":"5 star", "ru":"5-звездочный", "fi":"5 tähteä"},
+         "title":"Villa Ristivehmas",
+         "subtitle":{
+            "type":"l10n",
+            "en":"250 m<sup>2</sup>, 10 prsn",
+            "ru":"250 m<sup>2</sup>, 10 чел",
+            "fi":"250 m<sup>2</sup>, 10 henk"
+         },
+         "icon": "content/0005/icon.jpg",
+         "tag":{
+            "type":"l10n",
+            "en":"2500&euro;/wk",
+            "ru":"2500&euro;/нед",
+            "fi":"2500&euro;/vko"
+         },
+         "summary":[
+            {
+               "type":"l10n",
+               
+               "en":"<br/>Central Finland, Jämsä; 65 km south-west of Jyväskylä; Villa Ristivehmas is renovated house in 2005, suitable for accommodations and meetings. Separate 80 m2 sauna building was completed in 2006. The main building has accommodation for 10 people, and even a larger space for group meetings for 20 persons. Jämsänkoski town services 9 km.",
+               
+               "ru":"<br/>Центральная Финляндия, Ямся; 65 км на юго-восток от г. Ювяскюля; Вилла Ristivehmas отремонтированна в 2005 году, пригодная для проживания и совещаний. Отдельная 80 м2 сауна была завершена в 2006 году.Главное здание пригодно для проживания 10 человек, а таже для проведения групповых совещаний до 20 человек. Ресторан и магазин 9 км",
+                   
+               "fi":"<br/>Keski-Suomi, Jämsä; Jyväskylästä 65 km lounaaseen; Villa Ristivehmas on saneerattu majoitus- ja kokouskäyttöön soveltuvaksi vuonna 2005. Erillinen 80 m2:n saunarakennus valmistui v. 2006. Päärakennuksessa on majoitustilat kymmenelle henkilölle, sekä tilaa isommallekin kokousryhmälle. Jämsänkosken palvelut 9 km"
+            }
+         ]
+      }
+   ]
+}

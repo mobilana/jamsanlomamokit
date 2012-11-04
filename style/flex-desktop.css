@@ -1,0 +1,24 @@
+/*
+ --------------------------------------------------------------------
+ 
+ Desktop specific horizontal menu at header (defined via .list)
+ 
+ --------------------------------------------------------------------
+ */
+.mainmenu
+{
+	style: none;
+}
+
+.mainmenu > li,
+.mainmenu > li > a
+{
+	display: inline-block;
+	margin:  0;
+   padding: 0;
+}
+
+.mainmenu > li a > small
+{
+   margin: -8px 0px 0px 0px;
+}

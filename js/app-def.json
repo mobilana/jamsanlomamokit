@@ -1,0 +1,230 @@
+//
+// application wireframe
+//
+{
+   "mainmenu": {
+      "flex" : "list",
+      "flex_class" : "mainmenu",
+      "entry": [
+         {
+            "rel"  : "#home",
+            "title": {
+                "type":"l10n", 
+                "en":"Home", 
+                "ru":"Главная страница", 
+                "fi":"Etusivu"
+            }
+         },
+         {
+            "rel"  : "#desc",
+            "title": {
+               "type":"l10n", 
+               "en":"Accomodation",
+               "ru":"Размещение",
+               "fi":"Majoitus"
+            }
+         },
+         {
+            "rel"  : "#map",
+            "title": {
+               "type":"l10n",
+               "en":"Map",
+               "ru":"Карта",
+               "fi":"Kartta"
+            }
+         }
+      ]
+   },
+   
+   "header": {
+      "action": [
+         {
+            "rel"  : "#lang.fi",
+            "title": "FI"
+         },
+         {
+            "rel"  : "#lang.en",
+            "title": "EN"
+         },
+         {
+            "rel"  : "#lang.ru",
+            "title": "RU"
+         }
+      ]
+   },
+   
+   "footer": {
+      "rights": "+358 (0) 44 358 4438 | <a href=\"mailto:jamsanloma@hotmail.com\">jamsanloma@hotmail.com</a> | Jamsän Loma Oy",
+      "author": "by MobiLana"
+   },
+   
+   "booking":{
+      "flex" : "editor",
+      "entry": [
+         {
+            "id": "book_cottage",
+            "flex": "choice",
+            "property": {
+               "type":"l10n",
+               "en":"cottage",
+               "ru":"cottage",
+               "fi":"mökki"
+            },
+            "option": [
+               {"id":"0002", "title":"Inkeri"}, 
+               {"id":"0001", "title":"Puolukkahuvila"}, 
+               {"id":"0003", "title":"Aurinko"}, 
+               {"id":"0004", "title":"Safiiri"}, 
+               {"id":"0005", "title":"Villa Ristivehmas"}
+            ]
+         },
+         {
+            "id": "book_arrive",
+            "flex": "string",
+            "required": true,
+            "property": {
+               "type":"l10n", 
+                "en":"date",
+                "ru":"дата",
+                "fi":"päivä"
+            },
+            "tag": " *",
+            "hint": {
+               "type":"l10n",
+               "en":"Arrival date",
+               "ru":"Дата прибытия",
+               "fi":"Saapumispäivä"
+            }
+         },
+         {
+            "id": "book_duration",
+            "flex": "string",
+            "required": true,
+            "property": {
+               "type":"l10n",
+               "en":"days",
+               "ru":"суток",
+               "fi":"vrk"
+            },
+            "tag": " *",
+            "hint": {
+               "type":"l10n",
+               "en":"Visit durtation",
+               "ru":"Продолжительность визита",
+               "fi":"Käynnin kesto"
+            }
+         },
+         {
+            "id": "book_name",
+            "flex": "string",
+            "required": true,
+            "property": {
+               "type":"l10n",
+               "en":"name",
+               "ru":"имя",
+               "fi":"nimi"
+            },
+            "tag": " *",
+            "hint": {
+               "type":"l10n",
+               "en":"Contact person",
+               "ru":"Контактное лицо",
+               "fi":"Yhteyshenkilö"
+            }
+         },
+         {
+            "id": "book_phone",
+            "flex": "string",
+            "required": true,
+            "property": {
+               "type":"l10n",
+               "en":"phone",
+               "ru":"тел.",
+               "fi":"puh."
+            },
+            "tag": " *",
+            "hint": {
+               "type":"l10n",
+               "en":"Contact phone",
+               "ru":"Контактный телефон",
+               "fi":"Yhteystiedot puhelin"
+            }
+         },
+         {
+            "id": "book_email",
+            "flex": "string",
+            "required": true,
+            "property": {
+               "type":"l10n",
+               "en":"email"
+            },
+            "tag": " *",
+            "hint": {
+               "type":"l10n",
+               "en":"Contact email",
+               "ru":"Контактный email",
+               "fi":"Yhteystiedot email"
+            }
+         },
+         {
+            "flex": "submit",
+            "value": {
+               "type":"l10n",
+               "en":"Book",
+               "ru":"Забронировать",
+               "fi":"Varaa"
+            }
+         }
+      ]
+   },
+   
+   entry: [
+      {
+         "id"  : "cover",
+         "flex": "l1col",
+         "flex_focused": true,
+         "content": "fineart"
+      },
+      {
+         "id"    : "home",
+         "flex"  : "lncol",
+         "column": [
+            {
+               "flex_class": "col-book",
+               "id":"booking",
+               "content"   : "booking"
+            },
+            {
+               "flex_class": "col-feed",
+               "id": "cottages"
+            },
+            {
+               "id": "col-desc-1"
+            },
+            {
+               "id": "col-desc-2"
+            },
+            {
+               "flex_class": "col-feed",
+               "id": "col-map",
+               "content": "maptile"
+            },
+            {
+               "flex_class": "col-feed",
+               "id": "photos"
+            }
+         ]
+      },
+      {
+         "id": "lightbox",
+         "flex": "popup",
+         "content": "viewer"
+      },
+      {
+         "id": "notification",
+         "flex": "popup",
+         "content": "notification"
+      }
+   ]
+   
+}
