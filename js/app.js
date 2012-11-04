@@ -129,7 +129,7 @@ var fsm = {
          }
          
          (new Request.JSON({
-            url: 'book.php',
+            url: 'http://jlm.eu01.aws.af.cm/book.php',
             onSuccess: function(){ 
                $('notification').setStyle('display', 'block');
                $('notification').getElement('a').innerHTML = {
