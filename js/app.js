@@ -128,7 +128,7 @@ var fsm = {
             return; 
          }
          
-         (new Request.JSON({
+         (new Request.JSONP({
             url: 'http://jlm.eu01.aws.af.cm/book.php',
             onSuccess: function(){ 
                $('notification').setStyle('display', 'block');
@@ -141,7 +141,7 @@ var fsm = {
             },
             onFailure: function(){ alert('fail') }
          }).send({
-            method: 'get'/*,
+            method: 'post',
             data: JSON.encode({
                cottage: $('book_cottage').getElement('select').selectedText(),
                arrive: $('book_arrive').getElement('input').value,
@@ -149,7 +149,7 @@ var fsm = {
                person: $('book_name').getElement('input').value, 
                phone: $('book_phone').getElement('input').value,
                email: $('book_email').getElement('input').value
-            })*/
+            })
          }));
          
       });
