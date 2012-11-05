@@ -78,30 +78,30 @@
          "id":    "photo-11",
          "flex":  "li_image",
          "flex_class": "interior",
-         "rel":   "content/0005/interior/_TLP3991.jpg",
-         "source":"content/0005/interior/thumb/_TLP3991.jpg"
+         "rel":   "content/0005/interior/TLP3991.jpg",
+         "source":"content/0005/interior/thumb/TLP3991.jpg"
       },
       {
          "id":    "photo-13",
          "flex":  "li_image",
          "flex_class": "interior",
-         "rel":   "content/0005/interior/_TLP3997.jpg",
-         "source":"content/0005/interior/thumb/_TLP3997.jpg"
+         "rel":   "content/0005/interior/TLP3997.jpg",
+         "source":"content/0005/interior/thumb/TLP3997.jpg"
       },
       
       {
          "id":    "photo-14",
          "flex":  "li_image",
          "flex_class": "winter",
-         "rel":   "content/0005/winter/_TLP3949.jpg",
-         "source":"content/0005/winter/thumb/_TLP3949.jpg"
+         "rel":   "content/0005/winter/TLP3949.jpg",
+         "source":"content/0005/winter/thumb/TLP3949.jpg"
       },
       {
          "id":    "photo-15",
          "flex":  "li_image",
          "flex_class": "winter",
-         "rel":   "content/0005/winter/_TLP3954.jpg",
-         "source":"content/0005/winter/thumb/_TLP3954.jpg"
+         "rel":   "content/0005/winter/TLP3954.jpg",
+         "source":"content/0005/winter/thumb/TLP3954.jpg"
       },
    ]
 }

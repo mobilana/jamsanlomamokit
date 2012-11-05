@@ -36,8 +36,8 @@
          "id":    "photo-05",
          "flex":  "li_image",
          "flex_class": "summer",
-         "rel":   "content/0005/summer/g5.jpg",
-         "source":"content/0005/summer/thumb/g5.jpg"
+         "rel":   "content/0006/summer/g5.jpg",
+         "source":"content/0006/summer/thumb/g5.jpg"
       },
       {
          "id":    "photo-06",
