@@ -75,7 +75,8 @@
                {"id":"0001", "title":"Puolukkahuvila"}, 
                {"id":"0003", "title":"Aurinko"}, 
                {"id":"0004", "title":"Safiiri"}, 
-               {"id":"0005", "title":"Villa Ristivehmas"}
+               {"id":"0005", "title":"Villa Ristivehmas"},
+               {"id":"0006", "title":"Kuhmoinen"}
             ]
          },
          {

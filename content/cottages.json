@@ -161,6 +161,38 @@
                "fi":"<br/>Keski-Suomi, Jämsä; Jyväskylästä 65 km lounaaseen; Villa Ristivehmas on saneerattu majoitus- ja kokouskäyttöön soveltuvaksi vuonna 2005. Erillinen 80 m2:n saunarakennus valmistui v. 2006. Päärakennuksessa on majoitustilat kymmenelle henkilölle, sekä tilaa isommallekin kokousryhmälle. Jämsänkosken palvelut 9 km"
             }
          ]
+      },
+      {
+         "id": "0006",
+         "rel":"#gallery.0006",
+         "flex":"li_content",
+         "flex_class":"li-wide",
+         "type": {"type":"l10n", "en":"5 star", "ru":"5-звездочный", "fi":"5 tähteä"},
+         "title":"Kuhmoinen",
+         "subtitle":{
+            "type":"l10n",
+            "en":"27 m<sup>2</sup>, 4 + 2 prsn",
+            "ru":"27 m<sup>2</sup>, 4 + 2 чел",
+            "fi":"27 m<sup>2</sup>, 4 + 2 henk"
+         },
+         "icon": "content/0006/icon.jpg",
+         "tag":{
+            "type":"l10n",
+            "en":"623 - 931&euro;/wk",
+            "ru":"623 - 931&euro;/нед",
+            "fi":"623 - 931&euro;/vko"
+         },
+         "summary":[
+            {
+               "type":"l10n",
+               
+               "en":"<br/>Central Finland, 90 km south of Jyväskylä, Lake Pyhäjärvi 20 m; Apartment in semidetached laminated log house 2012, combined kitchen-living room with sofa bed for two. Lakeside sauna is available by agreement for extra fee.",
+               
+               "ru":"<br/>Центральная Финляндия, Ямся; 90 км на юг от г. Ювяскюля, озеро Пухяярви; деревянный дом, построен в 2012; студия для проживания 4 человек. Сауна на берегу, предоставляется за дополнительную плату.",
+                   
+               "fi":"<br/>Keski-Suomi, Jämsä; Jyväskylästä 90 km etelään, Pyhäjärvi 20 m pehmeä ranta, johon on ruopattu matala ja hiekoitettu uimaranta, iso laituri, ranta ja laituri ovat yhteiskäytössä, oma vene; Rantasauna on varattavissa sopimuksen mukaan lisämaksusta."
+            }
+         ]
       }
    ]
 }
