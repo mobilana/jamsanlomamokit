@@ -212,7 +212,8 @@ var fsm = {
       var lng = 25.024412;
       if (!fsm.is_map)
       {
-         var latlng = new google.maps.LatLng(lat, lng);
+         var latlng  = new google.maps.LatLng(lat, lng);
+         var latlng1 = new google.maps.LatLng(61.645472, 25.45352);
          var myOptions = {
            zoom: 10,
            center: latlng,
@@ -225,8 +226,13 @@ var fsm = {
              position: latlng,
              title:"Jamsan Loma Mökit"
          });
+         var marker1 = new google.maps.Marker({
+             position: latlng1,
+             title:"Kuhmoinen Cottages"
+         });
          // To add the marker to the map, call setMap();
          marker.setMap(map);
+         marker1.setMap(map);
          fsm.is_map = true;
       };
       $$('.col').each(function(ui){ui.setStyle('display', 'none')});

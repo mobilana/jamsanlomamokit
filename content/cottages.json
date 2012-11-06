@@ -17,9 +17,9 @@
          "icon":      "content/0002/icon.jpg",
          "tag":{
             "type":"l10n",
-            "en":"890-1390&euro;/wk",
-            "ru":"890-1390&euro;/нед",
-            "fi":"890-1390&euro;/vko"
+            "en":"990-1690&euro;/wk",
+            "ru":"990-1690&euro;/нед",
+            "fi":"990-1690&euro;/vko"
          },
          "summary": [
             {
@@ -49,9 +49,9 @@
          "icon":       "content/0001/icon.jpg",
          "tag":{
             "type":"l10n",
-            "en":"890-1390&euro;/wk",
-            "ru":"890-1390&euro;/нед",
-            "fi":"890-1390&euro;/vko"
+            "en":"990-1690&euro;/wk",
+            "ru":"990-1690&euro;/нед",
+            "fi":"990-1690&euro;/vko"
          },
          "summary": [
             {
@@ -82,9 +82,9 @@
          "icon": "content/0003/icon.jpg",
          "tag": {
             "type":"l10n",
-            "en": "890-1390&euro;/wk", 
-            "ru": "890-1390&euro;/нед",
-            "fi": "890-1390&euro;/vko"
+            "en": "990-1690&euro;/wk", 
+            "ru": "990-1690&euro;/нед",
+            "fi": "990-1690&euro;/vko"
          },
          "summary":[
             {
@@ -114,9 +114,9 @@
          "icon": "content/0004/icon.jpg",
          "tag":{
             "type":"l10n",
-            "en":"890-1390&euro;/wk",
-            "ru":"890-1390&euro;/нед",
-            "fi":"890-1390&euro;/vko"
+            "en":"990-1690&euro;/wk",
+            "ru":"990-1690&euro;/нед",
+            "fi":"990-1690&euro;/vko"
          },
          summary:[
             {
@@ -167,13 +167,18 @@
          "rel":"#gallery.0006",
          "flex":"li_content",
          "flex_class":"li-wide",
-         "type": {"type":"l10n", "en":"5 star", "ru":"5-звездочный", "fi":"5 tähteä"},
-         "title":"Kuhmoinen",
+         "type": {"type":"l10n", "en":"4 star", "ru":"4-звездочный", "fi":"4 tähteä"},
+         "title":{
+            "type":"l10n",
+            "en":"5 cottages in Kuhmoinen",
+            "ru":"5 котеджей в Kuhmoinen",
+            "fi":"5 mökkejä Kuhmoinen"
+         },
          "subtitle":{
             "type":"l10n",
-            "en":"27 m<sup>2</sup>, 4 + 2 prsn",
-            "ru":"27 m<sup>2</sup>, 4 + 2 чел",
-            "fi":"27 m<sup>2</sup>, 4 + 2 henk"
+            "en":"48 m<sup>2</sup> + loft 27 m<sup>2</sup>, 4 + 2 prsn",
+            "ru":"48 m<sup>2</sup> + чердак 27 m<sup>2</sup>, 4 + 2 чел",
+            "fi":"48 m<sup>2</sup> + parvi 27 m<sup>2</sup>, 4 + 2 henk"
          },
          "icon": "content/0006/icon.jpg",
          "tag":{
