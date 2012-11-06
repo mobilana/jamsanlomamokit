@@ -215,7 +215,7 @@ var fsm = {
          var latlng  = new google.maps.LatLng(lat, lng);
          var latlng1 = new google.maps.LatLng(61.645472, 25.45352);
          var myOptions = {
-           zoom: 10,
+           zoom: 8,
            center: latlng,
            mapTypeId: google.maps.MapTypeId.ROADMAP
          };
